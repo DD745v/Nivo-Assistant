@@ -1,0 +1,39 @@
+
+# Ambienti Python
+.venv/
+venv/
+env/
+
+# File temporanei Python
+__pycache__/
+*.pyc
+
+# Chiavi API e segreti
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# File temporanei
+*.log
+*.tmp
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Dati e configurazioni personali
+*.json
+
+# File elaborati e risultati
+risultati/
+*.pdf
+*.txt
+
+# Vecchie versioni e backup
+*BACKUP*
+*.bak
+
+# Configurazioni locali VS Code
+.vscode/
